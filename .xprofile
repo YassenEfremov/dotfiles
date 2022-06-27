@@ -1,0 +1,4 @@
+xset r rate 330 30
+
+nitrogen --restore &
+picom --experimental-backedns -b
