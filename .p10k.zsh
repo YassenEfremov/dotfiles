@@ -446,7 +446,7 @@
     # in this case.
     (( VCS_STATUS_HAS_UNSTAGED == -1 )) && res+=" ${modified}─"
 
-    typeset -g my_git_format=$res
+    typeset -g my_git_format="($res)"
   }
   functions -M my_git_formatter 2>/dev/null
 

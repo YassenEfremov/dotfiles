@@ -62,8 +62,11 @@ set noshowmode
 set wildmenu
 hi StatusLine	ctermfg=darkgray
 
+" Enable Omnicomplete features
+set omnifunc=syntaxcomplete#Complete
 
 " --- NETRW SETTINGS --- "
 
-let g:netrw_liststyle = 3
+"let g:netrw_liststyle = 3
+"let g:netrw_browse_split = 3
 
