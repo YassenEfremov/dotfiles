@@ -1,5 +1,13 @@
+USERXSESSION="$XDG_CACHE_HOME/X11/xsession"
+USERXSESSIONRC="$XDG_CACHE_HOME/X11/xsessionrc"
+ALTUSERXSESSION="$XDG_CACHE_HOME/X11/Xsession"
+ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors"
+
 xset r rate 330 30
+lxpolkit &
 
 nitrogen --restore &
 picom -b
+
+export FUSION_IDSDK=false
 
