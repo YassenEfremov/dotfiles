@@ -1,0 +1,34 @@
+# Get editor completions based on the config schema
+#"$schema" = 'https://starship.rs/config-schema.json'
+
+format = '$os$all'
+
+# Inserts a blank line between shell prompts
+add_newline = false
+
+# Replace the '❯' symbol in the prompt with '➜'
+[character] # The name of the module we are configuring is 'character'
+success_symbol = '[\$](10 bold)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+error_symbol = '[\$](9 bold)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+
+[directory]
+style = '4 bold'
+read_only = ' '
+#truncation_length = 8
+truncation_symbol = '…/'
+
+[line_break]
+disabled = true
+
+[os]
+format = "[$symbol]($style)"
+style = "6 bold"
+disabled = false
+
+[os.symbols]
+Windows = " "
+Arch = " "
+
+[sudo]
+#disabled=false
+
