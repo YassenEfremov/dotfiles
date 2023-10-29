@@ -724,7 +724,7 @@ bleopt exec_errexit_mark=''
 ## When this Readline setting is enabled, the cases of alphabets are ignored on
 ## completion generation.
 
-#bind 'set completion-ignore-case off'
+bind 'set completion-ignore-case on'
 
 
 ## When this Readline setting is turned on, suffixes are added to the filename
