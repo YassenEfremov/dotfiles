@@ -1,0 +1,13 @@
+[user]
+	name = Yassen Efremov
+	email = yassen.efremov@gmail.com
+	signingkey = A3B786952D96E90E785506BDDC328050CC4D5349
+[gpg]
+	gpgsign = true
+	program = gpg2
+[pull]
+	rebase = false
+[core]
+	editor = vim
+	autocrlf = input
+
