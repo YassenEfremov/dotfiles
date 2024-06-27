@@ -1,0 +1,55 @@
+[colors.bright]
+black = "#555753"
+blue = "#3b78ff"
+cyan = "#61d6d6"
+green = "#16c60c"
+magenta = "#b4009e"
+red = "#e74856"
+white = "#f2f2f2"
+yellow = "#fce94f"
+
+[colors.normal]
+black = "#0c0c0c"
+blue = "#0036d9"
+cyan = "#1793d1"
+green = "#13a10e"
+magenta = "#800080"
+red = "#c50f1f"
+white = "#cccccc"
+yellow = "#c4a000"
+
+[colors.primary]
+background = "#0c0c0c"
+foreground = "#cccccc"
+
+[cursor]
+blink_interval = 600
+
+[cursor.style]
+blinking = "Always"
+
+[font]
+size = 16	# old: 11
+
+[font.bold]
+family = "SauceCodePro NF"
+style = "Bold"
+
+[font.italic]
+family = "SauceCodePro NF"
+style = "Italic"
+
+[font.normal]
+family = "SauceCodePro NF"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = -1
+
+[window]
+opacity = 0.95
+
+[window.padding]
+x = 6
+y = 6
