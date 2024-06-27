@@ -4,7 +4,7 @@
 	signingkey = A3B786952D96E90E785506BDDC328050CC4D5349
 [gpg]
 	gpgsign = true
-	program = gpg2
+	program = gpg
 [pull]
 	rebase = false
 [core]
