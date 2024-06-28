@@ -10,8 +10,8 @@ Two branches are present:
 ## Installation
 
 ```sh
-alias dotfiles="git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 git clone --bare https://github.com/YassenEfremov/dotfiles.git dotfiles
-dotfiles sparse-checkout set ".*"
+alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+dotfiles sparse-checkout set $(dotfiels ls-tree --full-tree -r --name-only HEAD | grep -v README.md)
 dotfiles checkout
 ```
