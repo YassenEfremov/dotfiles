@@ -12,6 +12,6 @@ Two branches are present:
 ```sh
 alias dotfiles="git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 git clone --bare https://github.com/YassenEfremov/dotfiles.git dotfiles
-dotfiles sparse-checkout set README.md
+dotfiles sparse-checkout set ".*"
 dotfiles checkout
 ```
